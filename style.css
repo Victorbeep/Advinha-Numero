@@ -1,0 +1,36 @@
+body {
+    font-size: 90%;
+    padding: 20px;
+  }
+  
+main {
+  background: rgb(183, 0, 255);
+    margin: 0 auto;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+main div {
+    background: black;
+    color: white;
+    border-radius: 5%;
+    height: 300px;
+    margin: 450rem;
+    padding: 5rem;
+    resize: both;
+    box-shadow: 5px 5px 10px 1px rgb(17, 17, 17);
+  }
+
+h1 {
+    position: relative;
+    bottom: 20px;
+    width: 350px;
+}
+
+button {
+   margin-top: 10px;
+   width: 60px;
+   height: 30px;
+}
